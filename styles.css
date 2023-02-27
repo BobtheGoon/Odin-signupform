@@ -1,0 +1,124 @@
+@font-face{
+  font-family: norse-bold;
+  src: url("./fonts/Norse-Bold.otf");
+}
+
+body {
+  display: flex;
+  margin: 0%;
+}
+
+/*Left side of sign up form page */
+.logo {
+  width: 35vw;
+  height: 100vh;
+  background-image: url("img/plant.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
+
+.logo_text {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 20%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo_text h1 {
+  font-family: 'Norse-Bold';
+  color: white;
+  font-size: 80px;
+}
+
+.logo_text img {
+  height: 100px;
+}
+
+/*Right side of sign up form page */
+.signup_body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5%;
+  justify-content: center;
+  background-color: #f9fafb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup_upper {
+  padding: 0 4rem;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.signup_mid {
+  background-color: white;
+  padding: 2rem 4rem;
+  box-shadow: 0px 0.1px 5px gray;
+}
+
+.signup_mid p {
+  font-weight: bolder;
+}
+
+.form_fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+  gap: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.form_row {
+  display: flex;
+  justify-content: start;
+}
+
+.form_row > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/*.form_row {
+  display:flex;
+  flex-direction: column;
+}
+
+.form_row input {
+  width: 20em;
+  height: 1.5em;
+}
+*/
+
+
+.signup_lower {
+  padding: 0 4rem;
+}
+
+.signup_lower button {
+  background-color: #596D48;
+  color: white;
+  font-weight: bolder;
+  border-radius: 0.5rem;
+  padding: 0.75rem 3rem 0.75rem 3rem;
+  border: none;
+}
+
+.login_prompt {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.login_prompt p{
+  margin: 0;
+}
+
+.login_prompt a {
+  margin: 0 0 0 0.5rem;
+  color: #596D48;
+  font-weight: bolder;
+  text-decoration: none;
+}
