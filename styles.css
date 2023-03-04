@@ -87,6 +87,9 @@ body {
 input {
   width: 20em;
   height: 1.5em;
+  border-color: #E5E7EB;
+  border-radius: 2px;
+  background-color: #f9fafb;
 }
 
 
@@ -102,6 +105,7 @@ input {
   border-radius: 0.5rem;
   padding: 0.75rem 3rem 0.75rem 3rem;
   border: none;
+  box-shadow: 0px 1px 5px gray;
 }
 
 .signup_lower button:active {
